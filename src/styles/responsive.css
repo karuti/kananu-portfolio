@@ -81,10 +81,10 @@
 }
 
 /* ================================
-   EXISTING CLASSES FROM TEMPLATE
+   EXISTING CLASSES FROM TEMPLATE - FIXED
    ================================ */
 
-/* These classes were already in your components */
+/* Mobile: hide desktop version, show mobile version */
 @media (max-width: 767px) {
   .s-flex-hide {
     display: none !important;
@@ -92,5 +92,16 @@
   
   .s-flex-show {
     display: flex !important;
+  }
+}
+
+/* Desktop: show desktop version, hide mobile version */
+@media (min-width: 768px) {
+  .s-flex-hide {
+    display: flex !important;
+  }
+  
+  .s-flex-show {
+    display: none !important;
   }
 }

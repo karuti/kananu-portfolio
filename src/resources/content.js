@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Joy",
+  lastName: "Karuti",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Product Manager",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "mskaruti@gmail.com",
+  location: "Africa/Nairobi", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -27,20 +27,15 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
+   {
+    name: "LinkedIn",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/in/karuti-joy/",
+  },
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
-  },
-  {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://github.com/karuti",
   },
   {
     name: "Email",
@@ -55,16 +50,20 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Innovating with Intention</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: <>Recent project: <strong className="ml-4">EB2B Retailers App</strong></>,
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Joy, a seasoned Product Manager & Designer with a 6-year track record of fusing 
+design and strategy to craft user-centric, impactful products.
+
+      <br />
+        <br /> 
+       I'm currently channeling my creativity into creating delightful experiences at FieldPro.
     </>
   ),
 };
@@ -83,16 +82,26 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/mskaruti/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Driven Product Manager with over 5 years experience leading the development of B2B SaaS products across iOS, 
+        Android, and Web platforms. 
+
+          <br />   
+        <br /> 
+
+        Demonstrated success in managing remote cross-functional teams, launching self-service trials that increased qualified leads by 10%, and reducing mobile development time through the implementation of scalable design systems. 
+        Oversaw delivery of customer-facing features across multiple markets, supported by user research and data-driven roadmaps.   
+        <br />   
+        <br /> 
+        
+        Looking to transfer these skills into a remote-focused product management role that values user-centric design, cross-functional collaboration, and measurable business impact.
+
       </>
     ),
   },
@@ -101,41 +110,75 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "FieldPro by Optimetriks",
+        timeframe: "May 2023 - Present",
+        role: "Product Manager",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Delivered a fully localized eB2B mobile app for Turkiye market, enabling a successful launch with over 300 active users in the first quarter.
+
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+           Coordinated a remote, cross-functional team of designers, engineers, and business stakeholders across three countries to execute roadmap deliverables.
+
+          </>,
+            <>
+          Conducted 25+ user interviews and competitive analyses to inform strategic feature prioritization, reducing support tickets by improving UX flow.
+
+          </>,
+             <>
+         Facilitated discovery workshops to align customer pain points with product opportunities, leading to development of two high-impact features.
+          </>,
+             <>
+         Defined API specifications in collaboration with engineering, ensuring seamless integration of backend services and consistent user experience across platforms.
+
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "FieldPro",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "FieldPro by Optimetriks",
+        timeframe: "2020- 2023",
+        role: "Lead Product Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Mentored and developed a team of 4 UX designers, resulting in improved design output and reduced design-to-development handover issues.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Implemented a modular design system for mobile development that cut developer iteration cycles from 8 days to 6, increasing sprint delivery efficiency
+
+          </>,
+            <>
+           Led redesign of the company’s flagship dashboard, decreasing average user task completion time from 4 minutes to under 2 minutes.
+          </>,
+            <>
+           Produced over 50 high-fidelity mockups in Figma to standardize the design process and improve consistency across the product suite.
+
+          </>,
+            <>
+           Collaborated remotely with marketing and development teams to deliver design assets and content for feature releases and client demos.
+
+          </>,
+             <>
+           Initiated usability testing sessions that uncovered critical navigation issues, informing UI updates that improved customer satisfaction.
+
+          </>,
+             <>
+           Partnered with product managers to define user stories and design wireframes aligned to business requirements.
+
+          </>,
+              <>
+           Delivered detailed design documentation and interactive prototypes that accelerated stakeholder buy-in and reduced rework in development cycles.
+
+
           </>,
         ],
         images: [],
@@ -146,50 +189,39 @@ const about = {
     display: true, // set to false to hide this section
     title: "Studies",
     institutions: [
-      {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+       {
+        name: "Reforge",
+        description: <>Product Management.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "University of Suffolk",
+        description: <>Masters in Business Administration.</>,
+      },
+      {
+        name: "Multimedia University",
+        description: <>Bachelors in Software Engineering.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Product",
+        description: <>Product Management,Market Analysis, API Integration, Roadmap Planning, 
+         Feature Launches, Cross-Functional Collaboration, Mobile Development, B2B SaaS, Product Strategy, Data Analysis, </>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+        
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Design",
+        description: <> UX Design, User Research,Design Systems,Usability Testing</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          
         ],
       },
     ],
@@ -214,55 +246,4 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
-  images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-  ],
-};
-
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work };
