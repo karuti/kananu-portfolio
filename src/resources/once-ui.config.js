@@ -71,6 +71,7 @@ const style = {
   solidStyle: "flat",
   surface: "filled",
   transition: "all",
+  scaling: "100" // 90 | 95 | 100 | 105 | 110
 };
 
 const dataStyle = {
