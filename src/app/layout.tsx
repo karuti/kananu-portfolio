@@ -1,6 +1,7 @@
 import '@once-ui-system/core/css/styles.css';
 import '@once-ui-system/core/css/tokens.css';
 import '@/resources/custom.css'
+import '@/styles/responsive.css'
 
 import classNames from "classnames";
 
@@ -138,7 +139,8 @@ export default async function RootLayout({
               color: effects.lines.color,
             }}
           />
-          <Flex fillWidth minHeight="16" hide="s"/>
+          <Flex fillWidth minHeight="16" className="hide-s"/>
+
             <Header />
             <Flex
               zIndex={0}

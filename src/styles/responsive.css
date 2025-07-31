@@ -1,0 +1,96 @@
+/* src/styles/responsive.css */
+
+/* ================================
+   HIDE UTILITIES
+   ================================ */
+
+/* Hide on small screens (mobile) */
+@media (max-width: 767px) {
+  .hide-s {
+    display: none !important;
+  }
+}
+
+/* Hide on medium screens (tablet) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hide-m {
+    display: none !important;
+  }
+}
+
+/* Hide on large screens (desktop) */
+@media (min-width: 1024px) {
+  .hide-l {
+    display: none !important;
+  }
+}
+
+/* ================================
+   SHOW UTILITIES
+   ================================ */
+
+/* Show only on small screens - hide on tablet/desktop */
+@media (min-width: 768px) {
+  .show-s-only {
+    display: none !important;
+  }
+}
+
+/* Show only on medium screens - hide on mobile and desktop */
+@media (max-width: 767px), (min-width: 1024px) {
+  .show-m-only {
+    display: none !important;
+  }
+}
+
+/* Show only on large screens - hide on mobile and tablet */
+@media (max-width: 1023px) {
+  .show-l-only {
+    display: none !important;
+  }
+}
+
+/* ================================
+   FLEX DIRECTION UTILITIES
+   ================================ */
+
+/* Mobile column behavior - stack items vertically on mobile */
+@media (max-width: 767px) {
+  .mobile-column {
+    flex-direction: column !important;
+  }
+}
+
+/* Mobile column with adjusted gap */
+@media (max-width: 767px) {
+  .mobile-column-gap {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+}
+
+/* ================================
+   GRID UTILITIES
+   ================================ */
+
+/* Force single column on mobile for grids */
+@media (max-width: 767px) {
+  .mobile-single-column {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ================================
+   EXISTING CLASSES FROM TEMPLATE
+   ================================ */
+
+/* These classes were already in your components */
+@media (max-width: 767px) {
+  .s-flex-hide {
+    display: none !important;
+  }
+  
+  .s-flex-show {
+    display: flex !important;
+  }
+}

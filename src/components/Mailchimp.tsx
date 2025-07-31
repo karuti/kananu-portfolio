@@ -132,8 +132,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
       >
-        <Flex id="mc_embed_signup_scroll" fillWidth maxWidth={24} mobileDirection="column" gap="8">
-          <Input
+<Flex id="mc_embed_signup_scroll" fillWidth maxWidth={24} className="mobile-column" gap="8">          <Input
             formNoValidate
             id="mce-EMAIL"
             name="EMAIL"
