@@ -99,7 +99,7 @@ const about = {
         Oversaw delivery of customer-facing features across multiple markets, supported by user research and data-driven roadmaps.   
         <br />   
         <br /> 
-        
+
         Looking to transfer these skills into a remote-focused product management role that values user-centric design, cross-functional collaboration, and measurable business impact.
 
       </>
@@ -219,6 +219,22 @@ const about = {
       {
         title: "Design",
         description: <> UX Design, User Research,Design Systems,Usability Testing</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+       {
+        title: "React / Next.js/ Gatsby.js",
+        description: <> Building next gen apps with Next.js and others frameworks.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          
+        ],
+      },
+       {
+        title: "Figma",
+        description: <> Able to prototype, micro interation, wireframes and low fidelity prototype in Figma.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           
