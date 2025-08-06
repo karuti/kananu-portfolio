@@ -23,7 +23,7 @@ export async function GET() {
     <managingEditor>${person.email || 'mskaruti@gmail.com'} (${person.name})</managingEditor>
     <webMaster>${person.email || 'mskaruti@gmail.com'} (${person.name})</webMaster>
     <image>
-      <url>${baseURL}${person.avatar || '/images/profile.jpeg'}</url>
+      <url>${baseURL}${person.avatar || '/images/profile.jpg'}</url>
       <title>${blog.title}</title>
       <link>${baseURL}/blog</link>
     </image>
