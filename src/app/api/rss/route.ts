@@ -20,10 +20,10 @@ export async function GET() {
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${baseURL}/api/rss" rel="self" type="application/rss+xml" />
-    <managingEditor>${person.email || 'noreply@example.com'} (${person.name})</managingEditor>
-    <webMaster>${person.email || 'noreply@example.com'} (${person.name})</webMaster>
+    <managingEditor>${person.email || 'mskaruti@gmail.com'} (${person.name})</managingEditor>
+    <webMaster>${person.email || 'mskaruti@gmail.com'} (${person.name})</webMaster>
     <image>
-      <url>${baseURL}${person.avatar || '/images/avatar.jpg'}</url>
+      <url>${baseURL}${person.avatar || '/images/profile.jpeg'}</url>
       <title>${blog.title}</title>
       <link>${baseURL}/blog</link>
     </image>
@@ -36,7 +36,7 @@ export async function GET() {
       <description><![CDATA[${post.metadata.summary}]]></description>
       ${post.metadata.image ? `<enclosure url="${baseURL}${post.metadata.image}" type="image/jpeg" />` : ''}
       ${post.metadata.tag ? `<category>${post.metadata.tag}</category>` : ''}
-      <author>${person.email || 'noreply@example.com'} (${person.name})</author>
+      <author>${person.email || 'mskaruti@gmail.com'} (${person.name})</author>
     </item>`).join('')}
   </channel>
 </rss>`;
