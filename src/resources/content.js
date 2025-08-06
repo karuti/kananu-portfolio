@@ -58,12 +58,12 @@ const home = {
   },
   subline: (
     <>
-      I'm Joy, a seasoned Product Manager & Designer with a 6-year track record of fusing 
+      I'm Joy, a seasoned Product Manager & Designer with a 5-year track record of fusing 
 design and strategy to craft user-centric, impactful products.
 
       <br />
         <br /> 
-       I'm currently channeling my creativity into creating delightful experiences at FieldPro.
+       I'm currently channeling my creativity into creating delightful experiences at FieldPro by Optimetriks.
     </>
   ),
 };
