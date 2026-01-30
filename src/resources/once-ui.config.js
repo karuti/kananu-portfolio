@@ -20,8 +20,7 @@ const display = {
 // Enable password protection on selected routes
 // Set password in the .env file, refer to .env.example
 const protectedRoutes = {
-  "/work/eb2b-retailers-app": true,
-   "/work/crm-redesign": true,
+
 };
 
 // Import and set font for each variant

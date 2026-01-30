@@ -58,7 +58,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Joy, a seasoned Product Manager & Designer with a 5-year track record of fusing 
+      I'm Joy, a seasoned Product Manager & Designer with a 6-year track record of fusing 
 design and strategy to craft user-centric, impactful products.
 
       <br />
@@ -89,19 +89,38 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Driven Product Manager with over 5 years experience leading the development of B2B SaaS products across iOS, 
-        Android, and Web platforms. 
+      
+        Senior UX  Designer and product manager with 6+ years creating user-centered experiences for 
+        B2B SaaS products serving 300+ enterprise clients across Africa and Vietnam. 
+         <br />   
+        <br />  
+        Expert in transforming complex workflows into intuitive interfaces through behavioral science principles, 
+        user research, and rapid prototyping. 
+         <br /> 
+        <br />    
+        Led design systems implementation reducing development cycles by 25% and drove 75% improvement in 
+        user adoption through data-informed design decisions grounded in behavioral economics. 
+         <br />
+            <br />     
+        Proven track record managing design teams across multiple countries and collaborating with 
+        engineering and product to deliver industry-leading experiences that balance user needs with business goals.
+
 
           <br />   
         <br /> 
 
-        Demonstrated success in managing remote cross-functional teams, launching self-service trials that increased qualified leads by 10%, and reducing mobile development time through the implementation of scalable design systems. 
-        Oversaw delivery of customer-facing features across multiple markets, supported by user research and data-driven roadmaps.   
-        <br />   
-        <br /> 
+      <b>KEY DESIGN ACHIEVEMENTS</b>
 
-        Looking to transfer these skills into a remote-focused product management role that values user-centric design, cross-functional collaboration, and measurable business impact.
+<li> <b>User Experience Impact:</b> Increased CRM user adoption from 17% to 75% through comprehensive UX research, 
+  behavioral psychology-informed design patterns,and iterative prototyping across 50+ screens serving 300+ enterprise users</li>
+<li> <b>Design Systems Excellence:</b> Built and scaled modular design system with 20+ reusable components achieving 100% team adoption, reducing mobile development iteration cycles by 25% (8 days → 6 days) and ensuring cohesive experiences across iOS, Android, and web platforms
+</li>
+<li> <b>Behavioral Science Application:</b> Applied behavioral economics frameworks to e-commerce UX achieving 45-60% engagement rates (2-3x industry benchmark) and 
+173% revenue growth through strategic nudges, friction reduction, and user journey optimization
+</li>
+<li> <b>Cross-Functional Design Leadership:</b> Collaborated with product and engineering teams across 3 countries (Mexico, France, Senegal) to deliver complex features on time while maintaining high craft standards and design consistency across product suite
 
+</li>
       </>
     ),
   },
@@ -112,25 +131,59 @@ const about = {
       {
         company: "FieldPro by Optimetriks",
         timeframe: "May 2023 - Present",
-        role: "Product Manager",
+        role: "Product Manager (Design-Led Product Development)",
         achievements: [
+           <>
+           <b>User Experience & Design Strategy</b>
+          </>,
           <>
-            Delivered a fully localized eB2B mobile app for Turkiye market, enabling a successful launch with over 300 active users in the first quarter.
+           Drive user-centered product development for B2B SaaS platform using design thinking methodologies and behavioral science principles to balance user needs, technical constraints, and business objectives across multi-platform experiences (iOS, Android, web)
 
           </>,
           <>
-           Coordinated a remote, cross-functional team of designers, engineers, and business stakeholders across three countries to execute roadmap deliverables.
+           Design and prototype complex interaction patterns for enterprise features including multi-dimensional territory management hierarchies, customer validation workflows, and data visualization systems, conducting rapid iteration cycles based on user feedback and behavioral insights
+
 
           </>,
             <>
-          Conducted 25+ user interviews and competitive analyses to inform strategic feature prioritization, reducing support tickets by improving UX flow.
+Architected modular design framework enabling scalable customization for enterprise clients while maintaining cohesive self-service experiences for 91% SMB customer base, leveraging behavioral economics to reduce decision fatigue and cognitive load
 
           </>,
              <>
-         Facilitated discovery workshops to align customer pain points with product opportunities, leading to development of two high-impact features.
+Lead user research initiatives including contextual inquiries with field sales teams, uncovering workflow pain points and cognitive barriers that informed strategic product direction across Field Visibility, CRM, and Sales Enablement features
+          </>,
+           <>
+           <b>Cross-Functional Collaboration & Design Systems</b>
           </>,
              <>
-         Defined API specifications in collaboration with engineering, ensuring seamless integration of backend services and consistent user experience across platforms.
+Collaborate closely with engineering team of 9 (2 mobile, 7 web/backend) to define interaction specifications, UI patterns, and design-to-development handoff processes, maintaining 80%+ on-time delivery rate while upholding design quality standards
+
+          </>,
+            <>
+Facilitate design critique sessions and discovery workshops with cross-functional stakeholders, translating business requirements into elegant user experiences through wireframing, prototyping, and iterative refinement
+
+          </>,
+              <>
+Established design QA process integrating usability heuristics and accessibility standards, catching critical issues before production and preventing negative user impact across 300+ enterprise accounts
+
+          </>,
+           <>
+Track and optimize design KPIs including user activation rates (addressing 62.5% non-activation through behavioral interventions), feature adoption metrics, and engagement patterns using analytics tools, driving data-informed iteration
+
+          </>,
+            <>
+           <b>Market Research & User-Centered Design</b>
+          </>,
+   <>
+          Owned end-to-end UX for new African market launch including user research, interaction design, usability testing, and post-launch optimization resulting in 300+ enterprise user activation in Q1
+
+          </>,
+           <>
+Conducted competitive analysis and heuristic evaluations to inform product positioning and identify differentiation opportunities, translating insights into actionable design improvements
+
+          </>,
+             <>
+Created comprehensive user personas, journey maps, and empathy maps based on field research with sales representatives across diverse African markets, improving team alignment on user needs and motivations
 
           </>,
         ],
@@ -149,39 +202,128 @@ const about = {
         timeframe: "2020- 2023",
         role: "Lead Product Designer",
         achievements: [
-          <>
-            Mentored and developed a team of 4 UX designers, resulting in improved design output and reduced design-to-development handover issues.
-          </>,
-          <>
-            Implemented a modular design system for mobile development that cut developer iteration cycles from 8 days to 6, increasing sprint delivery efficiency
-
-          </>,
-            <>
-           Led redesign of the company’s flagship dashboard, decreasing average user task completion time from 4 minutes to under 2 minutes.
-          </>,
-            <>
-           Produced over 50 high-fidelity mockups in Figma to standardize the design process and improve consistency across the product suite.
-
-          </>,
-            <>
-           Collaborated remotely with marketing and development teams to deliver design assets and content for feature releases and client demos.
-
-          </>,
              <>
-           Initiated usability testing sessions that uncovered critical navigation issues, informing UI updates that improved customer satisfaction.
+           <b>Interaction Design & Prototyping</b>
+          </>,
+          <>
+            Designed end-to-end user experiences for major product features from concept through launch, creating detailed wireframes, interactive prototypes, and high-fidelity mockups that balanced user needs with technical constraints
 
           </>,
+          <>
+Pioneered rapid prototyping workflows enabling quick validation of interaction patterns and micro-interactions before development, reducing costly rework and accelerating time-to-market
+          </>,
+            <>
+Crafted intuitive navigation systems and information architectures for complex B2B workflows, conducting card sorting exercises and tree testing to validate IA decisions with actual users
+          </>,
+          
+           
              <>
-           Partnered with product managers to define user stories and design wireframes aligned to business requirements.
+           <b>Design Systems & Team Leadership</b>
+          </>,
+            <>
+Built comprehensive Unio Design System in Figma with 20+ reusable components, interaction patterns, and design tokens, achieving 100% adoption across mobile product team and establishing design standards for product suite
 
           </>,
               <>
-           Delivered detailed design documentation and interactive prototypes that accelerated stakeholder buy-in and reduced rework in development cycles.
+Mentored team of 4 UX designers on interaction design principles, user research methodologies, and collaborative design processes, fostering culture of craft excellence and user advocacy
+
+
+          </>,
+             <>
+Standardized design-to-development handoff processes including component specifications, interaction states, and responsive behaviors, reducing design-developer friction and implementation errors by 25%
+
+
+          </>,
+             <>
+           <b>User Research & Usability Testing
+</b>
+          </>,
+            <>
+Led usability testing sessions with enterprise users that uncovered navigation bottlenecks and workflow inefficiencies, directly informing UI updates that improved task completion rates and user satisfaction scores
+
+
+          </>,
+            <>
+Conducted competitive analysis and heuristic evaluations identifying market gaps and usability best practices, synthesizing findings into actionable design recommendations added to product roadmap
+
+
+          </>,
+           <>
+Developed user personas and customer journey maps based on 25+ stakeholder interviews, improving cross-functional team alignment and informing feature prioritization decisions
 
 
           </>,
         ],
         images: [],
+      },
+       {
+        company: "FieldPro by Optimetriks",
+        timeframe: "Jun 2020 - Nov 2021",
+        role: "Product Designer",
+        achievements: [
+         
+          <>
+Designed and shipped user-centered B2B SaaS features from concept to production using iterative design process involving sketching, wireframing, prototyping, and usability testing with target users
+
+          </>,
+          <>
+Collaborated closely with cross-functional teams across product management, engineering, and marketing to define requirements, align on delivery timelines, and ensure design feasibility
+
+
+          </>,
+            <>
+Conducted foundational user research including contextual inquiries and user interviews, developing personas and journey maps that established shared understanding of user needs across organization
+
+          </>,
+             <>
+Built initial design system and UI component library in Figma, establishing visual design standards and interaction patterns that formed foundation for product design consistency
+          </>,
+         
+             <>
+Drove measurable improvements in user engagement metrics through data-informed design decisions, analyzing user behavior patterns and iterating based on quantitative and qualitative feedback
+
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/Cover8.png",
+            alt: "FieldPro",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+       {
+        company: "FieldPro by Optimetriks",
+        timeframe: "March - Sep 2025",
+        role: "UX Consultant (Behavioral Design Focus)",
+        achievements: [
+         
+          <>
+Applied behavioral economics principles to design customer journey optimization systems for e-commerce platform, creating mobile-first experiences achieving 45-60% engagement rates (2-3x industry benchmark) through strategic friction reduction and choice architecture
+
+          </>,
+          <>
+Conducted market research and user behavior analysis identifying cognitive barriers and decision-making patterns, designing behavioral interventions that increased conversion rates and generated 173% revenue growth
+
+
+          </>,
+            <>
+Designed culturally-relevant experiences optimized for East African market, leveraging behavioral science insights on loss aversion, social proof, and default effects to drive automated revenue generation
+
+          </>,
+          
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/Cover8.png",
+            alt: "FieldPro",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
