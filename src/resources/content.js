@@ -1,5 +1,5 @@
 import { Logo } from "@once-ui-system/core";
-
+const baseURL = "https://karuti.co.ke";
 const person = {
   firstName: "Joy",
   lastName: "Karuti",
@@ -404,4 +404,4 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-export { person, social, newsletter, home, about, blog, work };
+export { person, social, newsletter, home, about, blog, work,baseURL  };
