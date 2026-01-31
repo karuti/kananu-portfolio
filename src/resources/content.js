@@ -295,9 +295,9 @@ Drove measurable improvements in user engagement metrics through data-informed d
         ],
       },
        {
-        company: "FieldPro by Optimetriks",
+        company: "EMK",
         timeframe: "March - Sep 2025",
-        role: "UX Consultant (Behavioral Design Focus)",
+        role: "UX Consultant",
         achievements: [
          
           <>
